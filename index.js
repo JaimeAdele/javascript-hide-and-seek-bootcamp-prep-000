@@ -20,7 +20,7 @@ function deepestChild(){
   for (let i = 0; i < list.length; i++){
     current = list[i];
   }
-  console.log(current);
+  return current;
 
   /*let list = document.querySelectorAll('div');
   let array = Array.from(list);
